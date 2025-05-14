@@ -34,7 +34,7 @@ const SkillProgressBar = ({ skill }: { skill: Skill }) => (
       <span className="font-medium">{skill.name}</span>
       <span className="text-sm text-foreground/70">{skill.level}%</span>
     </div>
-    <Progress value={skill.level} className="h-2 bg-secondary/70" indicatorClassName="bg-gradient-to-r from-primary to-accent" />
+    <Progress value={skill.level} className="h-2 bg-secondary/70" />
   </div>
 );
 
